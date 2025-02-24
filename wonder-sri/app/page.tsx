@@ -1,4 +1,5 @@
 
+import AppcardComponent from "@/components/AppcardComponent";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
@@ -11,7 +12,7 @@ export default function Home() {
   <Navbar />
   <main className="flex-grow pt-16">
     <HeroSection />
-    {/* Other content */}
+    <AppcardComponent/>
   </main>
   <Footer />
 </div>

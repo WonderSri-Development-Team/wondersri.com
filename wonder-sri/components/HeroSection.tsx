@@ -27,13 +27,7 @@ function HeroSection() {
             />
           </div>
         </div>
-        <div>
-            <AppcardComponent
-            img=""
-            title={"hello"}
-            description={"hello ebjfbejf"}
-            buttonText={"get Strated"}/>
-        </div>
+        <div></div>
       </div>
     </>
   );

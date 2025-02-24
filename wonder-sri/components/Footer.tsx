@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <footer className="bg-blue-500 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-6xl mx-auto py-8 px-4 md:px-8 relative overflow-hidden">
         {/* Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
@@ -21,25 +21,39 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Quick Links
+            </h4>
             <ul className="space-y-2">
               <li>
-                <a href="#features" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="#features"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Features
                 </a>
               </li>
               <li>
-                <a href="#preview" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="#preview"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Preview
                 </a>
               </li>
               <li>
-                <a href="#team" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="#team"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
                   Download
                 </a>
               </li>
