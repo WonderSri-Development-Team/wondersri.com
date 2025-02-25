@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Oi&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* In your globals.css or another imported CSS file */
 .sigmar-regular { 
   font-family: "Sigmar", serif; 

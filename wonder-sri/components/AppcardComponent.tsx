@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 export default function AppcardComponent({}) {
   return (
-    <>
-      <div className="bg-blue-500 w-full pt-16">
+    <><div data-aos="fade-u">
+      <div className="bg-blue-500 w-full pt-16 ">
         <div className="max-w-6xl mx-auto py-8 px-4 md:px-8 relative overflow-hidden ">
           {/* Container for Image and Overlay Text */}
           <motion.div
@@ -27,6 +27,7 @@ export default function AppcardComponent({}) {
             />
           </motion.div>
         </div>
+      </div>
       </div>
     </>
   );

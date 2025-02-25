@@ -1,6 +1,6 @@
 "use client";
-
 import AppcardComponent from "./AppcardComponent";
+
 
 function HeroSection() {
   return (
@@ -14,7 +14,7 @@ function HeroSection() {
               Wonder Sri
             </h2>
             <p className="text-white text-base sm:text-lg md:text-xl mb-6 sigmar-regular">
-              Search deals on hotels, homes, and much more...
+               Discover Local Deals at the Best Prices
             </p>
           </div>
 
@@ -28,6 +28,8 @@ function HeroSection() {
           </div>
         </div>
         <div></div>
+        <div>
+    </div>
       </div>
     </>
   );
