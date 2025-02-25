@@ -5,7 +5,7 @@ export default function AppcardComponent({}) {
   return (
     <>
       <div className="bg-blue-500 w-full pt-16">
-        <div className="max-w-6xl mx-auto py-8 px-4 md:px-8 relative overflow-hidden">
+        <div className="max-w-6xl mx-auto py-8 px-4 md:px-8 relative overflow-hidden ">
           {/* Container for Image and Overlay Text */}
           <motion.div
             className="relative rounded-lg overflow-hidden border-5 border-blue-500 hover:scale-105 transition-transform duration-300 ease-in-out px-8 shadow-xl shadow-blue-gray-900/50"
