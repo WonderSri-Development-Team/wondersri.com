@@ -38,25 +38,25 @@ const Navbar = () => {
         ></motion.div>
         <div className="hidden sm:flex gap-6 items-center">
           <a
-            href="#home"
+            href="/"
             className="text-white hover:text-yellow-400 transition-colors text-bold"
           >
             Home
           </a>
           <a
-            href="#about"
+            href="/about"
             className="text-white hover:text-yellow-400 transition-colors text-bold"
           >
             About
           </a>
           <a
-            href="#services"
+            href="/services"
             className="text-white hover:text-yellow-400 transition-colors text-bold"
           >
             Services
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="text-white hover:text-yellow-400 transition-colors"
           >
             Contact
@@ -78,7 +78,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="sm:hidden bg-blue-500 py-4 px-6">
           <a
-            href="#home"
+            href="/"
             className="block text-white hover:text-yellow-400 py-2 transition-colors"
           >
             Home
