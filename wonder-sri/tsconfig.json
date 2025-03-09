@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-, "app/Product.js"  ],
+, "app/Product.js", "app/DetailCard.js", "app/BoatForm.js", "components/ActivityCart.tsx", "components/AppcardComponent.tsx"  ],
   "exclude": [
     "node_modules"
   ]

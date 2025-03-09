@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 
 const projects = [
   {
-    title: "Bentofolio Portfolio Template",
+    title: "Guru",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ex eget urna tincidunt viverra. Nullam fringilla, libero eget venenatis vehicula, urna nunc gravida orci, a pharetra libero erat vel risus. Vivamus euismod tincidunt nibh, ac sodales urna venenatis a. Suspendisse potenti.",
     img: "/bentofolio.png",
@@ -44,7 +44,6 @@ const Card = ({
   })
 
   const scale = useTransform(progress, range, [1, targetScale])
-
   return (
     <div
       ref={container}
@@ -147,3 +146,4 @@ export default function Products() {
     </div>
   )
 }
+

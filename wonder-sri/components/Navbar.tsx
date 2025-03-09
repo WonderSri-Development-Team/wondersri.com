@@ -44,22 +44,22 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="/about"
+            href="/team"
             className="text-white hover:text-yellow-400 transition-colors text-bold"
           >
             About
           </a>
           <a
-            href="/services"
+            href="/admin"
             className="text-white hover:text-yellow-400 transition-colors text-bold"
           >
-            Services
+            Contact
           </a>
           <a
-            href="/contact"
+            href="/BookingLookup"
             className="text-white hover:text-yellow-400 transition-colors"
           >
-            Contact
+           Find My Booking 
           </a>
         </div>
 

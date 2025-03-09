@@ -40,25 +40,30 @@ export default function () {
   return (
     <>
       <div className="bg-blue-500 w-full pt-16">
-        <div className="max-w-6xl mx-auto py-8 px-4 md:px-8">
-          {/* Grid Container */}
+        <div className="max-w-6xl mx-auto py-8 px-4 md:px-8 bg-blue-200 rounded-lg">
+          <img src="./offer1.png" alt="" className="w-full mb-6 rounded-lg" />
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {activities.map((activity, index) => (
               <div
                 key={index}
-                className="rounded-lg shadow-md bg-white transform transition duration-300 hover:scale-105"
+                className="rounded-lg shadow-md bg-white transform transition duration-300 hover:scale-105 overflow-hidden"
               >
-                <div className="relative">
+                {/* Image Section */}
+                <div className="relative group">
                   <img
-                    className="w-full h-40 object-cover rounded-t-lg"
+                    className="w-full h-48 object-cover transform transition duration-300 group-hover:scale-105"
                     src={activity.imageUrl}
                     alt={activity.title}
                   />
+                  {/* Overlay Badge */}
                   <span className="absolute top-2 right-2 px-2 py-1 rounded-full text-xs font-semibold text-white bg-blue-500">
                     Available
                   </span>
                 </div>
-                <div className="p-4">
+
+                {/* Content Section with Small Space */}
+                <div className="p-4 mt-2"> {/* Added margin-top for spacing */}
                   <h3 className="text-lg font-bold text-blue-700 mb-1">
                     {activity.title}
                   </h3>

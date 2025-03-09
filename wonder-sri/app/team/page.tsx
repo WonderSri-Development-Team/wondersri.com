@@ -5,12 +5,15 @@ import Product from "../Product"
 import CustomCursor from "../CustomCursor"
 
 
+
+
 function Team() {
   return (
 <>
 <HeroSection/>
 <Product/>
 <CustomCursor/>
+
 </>
   )
 }
